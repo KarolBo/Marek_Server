@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="style.css"></link>
+        <script src="fetching.js"></script>
+    </head>
+    <body id="formbody">
+        <form>
+            <input type="text" id="username" placeholder="Username"></input>
+            <input type="text" id="email" placeholder="Email (example@example.com)"></input>
+            <input type="password" id="password" placeholder="Password"></input>
+        </form>
+        <button onclick="postData('http://192.168.0.171:1500').then(response => console.log(response))">
+            FETCH POST
+        </button>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+/* form.html (formularz) */
+#formbody {
+    background: linear-gradient(to bottom left,#ff00d0,#ff0000);
+}
+form {
+    background: #1c1c1c;
+    color:white;
+    width:calc(25% - 24px);
+    height:calc(50vh - 24px);
+    margin: calc(25vh) auto auto auto;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border:2px solid #42ddf5;
+}
+form>input[type=text],form>input[type=password] {
+    background:#1c1c1c;
+    color:white;
+    border:0;
+    font-size:20px;
+    outline:none;
+    width: 98%;
+}
+form>input[type=text]:focus,form>input[type=password]:focus {
+    border:1px solid;
+}
+/* index.html */
+a {
+    color:#42ddf5;
+}
+body {background:#1c1c1c}
